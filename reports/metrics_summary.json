@@ -1,0 +1,31 @@
+{
+    "champion_model": "Logistic Regression",
+    "cross_validation_comparison": {
+        "Logistic Regression": {
+            "cv_mean_roc_auc": 0.873993297215535,
+            "cv_std_roc_auc": 0.007534001116258718,
+            "training_time_sec": 0.42
+        },
+        "Random Forest": {
+            "cv_mean_roc_auc": 0.8678010362510765,
+            "cv_std_roc_auc": 0.011572065206182073,
+            "training_time_sec": 2.08
+        },
+        "HistGradientBoosting": {
+            "cv_mean_roc_auc": 0.8553507000931078,
+            "cv_std_roc_auc": 0.009877808940838784,
+            "training_time_sec": 2.78
+        }
+    },
+    "test_metrics": {
+        "accuracy": 0.7970191625266146,
+        "precision": 0.4603854389721627,
+        "recall": 0.8634538152610441,
+        "f1_score": 0.6005586592178771,
+        "roc_auc": 0.8828417116742834,
+        "pr_auc": 0.6209628719496608,
+        "support_positive": 249,
+        "support_negative": 1160
+    },
+    "timestamp": "2026-11-19 22:22:49"
+}
